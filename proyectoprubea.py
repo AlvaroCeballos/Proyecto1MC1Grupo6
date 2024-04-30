@@ -4,6 +4,7 @@ from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 import matplotlib.pyplot as plt
 import networkx as nx
 
+
 #Se crea grafo
 grafo = nx.Graph()
 
@@ -149,3 +150,5 @@ ax.set_visible(False)
 
 
 ventana1.mainloop()
+
+
